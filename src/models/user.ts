@@ -1,7 +1,7 @@
 import {Modulee} from "./modulee";
 import {Role} from "./role";
 
-export class Video {
+export class User {
   private _id: number = 0;
   private _firstName: string = '';
   private _lastName: string = '';

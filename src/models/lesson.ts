@@ -1,6 +1,6 @@
 import {Modulee} from "./modulee";
 
-export class Video {
+export class Lesson {
   private _id: number = 0;
   private _name: string = '';
   private _description: string = '';
