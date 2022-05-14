@@ -15,4 +15,9 @@ export class HttpLessonService {
     console.log(UrlApiConstantes.urlApi+UrlApiConstantes.urlApiLessons);
     return this.httpClient.get<Array<Lesson>>(UrlApiConstantes.urlApi+UrlApiConstantes.urlApiLessons);
   }
+
+  getLessonsById(id: string): Observable<Lesson> {
+    console.log(UrlApiConstantes.urlApiLessonID + id);
+    return this.httpClient.get<Lesson>(UrlApiConstantes.urlApiLessonID + id);
+  }
 }
