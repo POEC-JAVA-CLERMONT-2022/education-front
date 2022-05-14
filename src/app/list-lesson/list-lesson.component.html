@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 text-center my-5"
+         *ngFor="let lesson of lessons"
+    >
+      <h2>{{lesson.name}}</h2>
+      <div>{{lesson.description}}</div>
+      <div>{{lesson.level}}</div>
+      <div>{{lesson.language}}</div>
+      <div>{{lesson.price}}</div>
+    </div>
+  </div>
+</div>

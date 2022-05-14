@@ -7,13 +7,15 @@ import { AccountFormComponent } from './account-form/account-form.component';
 import { RegisterFormComponent } from './register-form/register-form.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LessonComponent } from './lesson/lesson.component';
+import { ListLessonComponent } from './list-lesson/list-lesson.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccountFormComponent,
     RegisterFormComponent,
-    LessonComponent
+    LessonComponent,
+    ListLessonComponent
   ],
   imports: [
     BrowserModule,
