@@ -8,6 +8,8 @@ import { RegisterFormComponent } from './register-form/register-form.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LessonComponent } from './lesson/lesson.component';
 import { ListLessonComponent } from './list-lesson/list-lesson.component';
+import {HttpClientModule} from "@angular/common/http";
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { ListLessonComponent } from './list-lesson/list-lesson.component';
     AccountFormComponent,
     RegisterFormComponent,
     LessonComponent,
-    ListLessonComponent
+    ListLessonComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

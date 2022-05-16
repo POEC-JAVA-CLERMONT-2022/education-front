@@ -10,11 +10,12 @@ import {Lesson} from "../../models/lesson";
 export class ListLessonComponent implements OnInit {
   lessons: Array<Lesson> =[];
 
-  constructor(private httpLesson: HttpLessonService) { }
+  constructor(private httpLessonService: HttpLessonService) { }
 
   ngOnInit(): void {
-    this.httpLesson.getLessons().subscribe((jsonLesson)=>{
+    this.httpLessonService.getLessons().subscribe((jsonLesson)=>{
         this.lessons= jsonLesson;
+        console.log(jsonLesson);
     });
   }
 
