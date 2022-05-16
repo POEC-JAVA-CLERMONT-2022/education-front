@@ -6,7 +6,7 @@ import { RegisterFormComponent } from './register-form/register-form.component';
 import {ListLessonComponent} from "./list-lesson/list-lesson.component";
 
 const routes: Routes = [
-  { path: 'account', component: AccountFormComponent },
+  { path: 'login', component: AccountFormComponent },
   { path: 'register', component: RegisterFormComponent },
   { path: 'lesson', component: LessonComponent },
   { path: 'lessonList', component: ListLessonComponent },
