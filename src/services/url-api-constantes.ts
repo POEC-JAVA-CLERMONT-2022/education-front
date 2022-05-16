@@ -11,7 +11,7 @@ export class UrlApiConstantes {
 
   /** SERVICES */
   static urlApi: string = 'http://localhost:8080';
-  static urlApiLessons: string = '/lessonList';
+  static urlApiLessons: string = '/lessons';
   static urlApiLessonID: string = '/lesson';
 
   static urlApiUsers: string = '/userList';

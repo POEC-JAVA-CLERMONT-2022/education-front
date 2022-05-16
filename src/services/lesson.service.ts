@@ -9,7 +9,7 @@ import {Lesson} from "../models/lesson";
 })
 export class HttpLessonService {
 
-  constructor(private  httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) { }
 
   getLessons(): Observable<Array<Lesson>>{
     console.log(UrlApiConstantes.urlApi+UrlApiConstantes.urlApiLessons);
